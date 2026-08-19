@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card {
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #F0E2CC;
+	border: 1px solid #E2E8F0;
+	border-radius: 5px;
+}
+.card h2 {
+	color: #2563EB;
+}
+.card p {
+	color: #555;
+}
+.card button {
+	background-color: #2563EB;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: whitesmoke;
+}
